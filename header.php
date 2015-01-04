@@ -66,9 +66,9 @@
 					</div>
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<!-- #custom -->
+						<!-- #customized for Sub-Editor -->
 						<?php
-						if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar Custom') ) : ?>
+						if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Primary Sidebar') ) : ?>
 						<?php endif; ?>
 						<!-- #custom -->
 
